@@ -1,0 +1,32 @@
+Package: ifedtree
+Type: Package
+Title: A Tree-based Federated Learning Approach for Personalized Effect Estimation
+Version: 0.1.0
+Author: Xiaoqing Tan
+Maintainer: The package maintainer <xit31@pitt.edu>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ranger,
+    data.table,
+    rpart,
+    rlang,
+    Rcpp,
+    rpart.plot,
+    grf,
+    ggplot2,
+    magrittr,
+    dplyr,
+    tibble,
+    causalToolbox,
+    Matrix,
+    lmtest,
+    sandwich
+RoxygenNote: 7.1.1
+LinkingTo: 
+    Rcpp
+Depends: 
+    R (>= 2.10)

@@ -1,0 +1,32 @@
+[
+    {
+        "file": "/Users/xtan/Box/research/pitt-lutang/hetero/Rpackage/ifedtree/src/GetHonestRcpp.cpp",
+        "file_last_write": 1616115610.0,
+        "definitions": [
+            {
+                "usr": "c:@F@GetHonestRcpp#$@N@Rcpp@S@Vector>#VI19#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "GetHonestRcpp(Rcpp::List, Rcpp::NumericVector, Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
+                "file": "/Users/xtan/Box/research/pitt-lutang/hetero/Rpackage/ifedtree/src/GetHonestRcpp.cpp",
+                "line": 16,
+                "column": 15
+            }
+        ]
+    },
+    {
+        "file": "/Users/xtan/Box/research/pitt-lutang/hetero/Rpackage/ifedtree/src/PredHonestRcpp.cpp",
+        "file_last_write": 1616115627.0,
+        "definitions": [
+            {
+                "usr": "c:@F@PredHonestRcpp#$@N@Rcpp@S@Vector>#VI19#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PredHonestRcpp(Rcpp::List, Rcpp::NumericVector, Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
+                "file": "/Users/xtan/Box/research/pitt-lutang/hetero/Rpackage/ifedtree/src/PredHonestRcpp.cpp",
+                "line": 16,
+                "column": 15
+            }
+        ]
+    }
+]
