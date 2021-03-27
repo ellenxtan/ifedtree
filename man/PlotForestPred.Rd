@@ -33,9 +33,13 @@ PlotForestPred(
 
 \item{covars}{A vector of covariate names used.}
 
-\item{var1}{A character string with the name a numerical predictor that will on X-axis.}
+\item{var1}{A character string with the name a numerical predictor that will on X-axis.
+If `var1` is the site indicator, the sites are ordered by average effect
+in the augmented data for better visualization.}
 
-\item{var2}{A character string with the name a numerical predictor that will on Y-axis.}
+\item{var2}{A character string with the name a numerical predictor that will on Y-axis.
+If `var2` is the site indicator, the sites are ordered by average effect
+in the augmented data for better visualization.}
 
 \item{site_enc_tab}{A data.table of mean outcome for each site. Default is NULL.
 If class of myfit is a `grf`, "site_enc_tab" should not be NULL.}
