@@ -1,12 +1,11 @@
 Package: ifedtree
 Type: Package
-Title: A Tree-based Federated Learning Approach for Personalized Effect Estimation
+Title: Tree-based Federated Learning Approach for Personalized Effect Estimation and Prediction
 Version: 0.1.0
 Author: Xiaoqing Tan
-Maintainer: The package maintainer <xit31@pitt.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: MIT + file LICENSE
+Maintainer: Xiaoqing Tan <xit31@pitt.edu>
+Description: Tree-based federated learning approach for personalized effect estimation and prediction.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: 
