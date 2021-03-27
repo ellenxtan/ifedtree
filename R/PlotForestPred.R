@@ -10,7 +10,11 @@
 #' @param site      Variable name for site indicator.
 #' @param covars    A vector of covariate names used.
 #' @param var1      A character string with the name a numerical predictor that will on X-axis.
+#'                  If `var1` is the site indicator, the sites are ordered by average effect
+#'                  in the augmented data for better visualization.
 #' @param var2      A character string with the name a numerical predictor that will on Y-axis.
+#'                  If `var2` is the site indicator, the sites are ordered by average effect
+#'                  in the augmented data for better visualization.
 #' @param site_enc_tab  A data.table of mean outcome for each site. Default is NULL.
 #'                      If class of myfit is a `grf`, "site_enc_tab" should not be NULL.
 #' @param grids     The number of points on the one-dimensional grid on x and y-axis. Default is 100.
