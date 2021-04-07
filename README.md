@@ -2,18 +2,6 @@
 
 R package `ifedtree` and replication codes for paper "**A Tree-based Federated Learning Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" (available at [link](https://arxiv.org/abs/2103.06261)).
 
-## Replication for paper
-
-- Simulation codes are under folder code_for_paper/simulation
-    - Run the following bash scripts for heterogeneous designs and homogeneous designs, respectively.
-        ```bash
-        sh make.sh script_dt_hetero
-        sh make.sh script_dt_homo
-        ```
-- Real data codes are under folder code_for_paper/eICUdata
-    - The eICU Collaborative Research Database [[paper]](https://www.nature.com/articles/sdata2018178) [[website]](https://eicu-crd.mit.edu/).
-    - Data are preprocessed following paper "The Search for Optimal Oxygen Saturation Targets in Critically Ill Patients: Observational Data from Large ICU Databases" [[paper]](https://doi.org/10.1016/j.chest.2019.09.015) [[github]](https://github.com/nus-mornin-lab/oxygenation_kc).
-
 ## Package installation
 
 To install this package in R, run the following commands:
@@ -57,6 +45,19 @@ PlotForestImp(ef_fit)
 PlotForestPred(aug_df, coord_df, coord_id, ef_fit, "site", covars, "site", "X1")
 BestLinearProj(ef_fit, coord_df, coord_id, "site", "Z", "Y", covars)
 ```
+
+## Replication for paper
+
+- Simulation codes are under folder code_for_paper/simulation
+    - Run the following bash scripts for heterogeneous designs and homogeneous designs, respectively.
+        ```bash
+        sh make.sh script_dt_hetero
+        sh make.sh script_dt_homo
+        ```
+- Real data codes are under folder code_for_paper/eICUdata
+    - The eICU Collaborative Research Database [[paper]](https://www.nature.com/articles/sdata2018178) [[website]](https://eicu-crd.mit.edu/).
+    - Data are preprocessed following paper "The Search for Optimal Oxygen Saturation Targets in Critically Ill Patients: Observational Data from Large ICU Databases" [[paper]](https://doi.org/10.1016/j.chest.2019.09.015) [[github]](https://github.com/nus-mornin-lab/oxygenation_kc).
+
 
 ## Cite
 
