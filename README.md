@@ -1,6 +1,6 @@
 # ifedtree
 
-R package `ifedtree` and replication codes for paper "**A Tree-based Federated Learning Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" [[arxiv]](https://arxiv.org/abs/2103.06261)).   
+R package `ifedtree` and replication codes for paper "**A Tree-based Federated Learning Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" [[arxiv]](https://arxiv.org/abs/2103.06261).   
 An earlier version received Honorable Mention in the ASA Student Paper Award competition (SLDS section) at JSM 2021.
 
 ## Package installation
