@@ -1,7 +1,7 @@
 # ifedtree
 
-R package `ifedtree` and replication codes for paper "**A Tree-based Federated Learning Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" [[arxiv]](https://arxiv.org/abs/2103.06261), which has recently been accepted by ICML 2022 for publication.   
-An earlier version received Honorable Mention in the ASA Student Paper Award competition (SLDS section) at JSM 2021.
+R package `ifedtree` and replication codes for paper "**A Tree-based Model Averaging Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" [[arxiv]](https://arxiv.org/abs/2103.06261), which has recently been accepted by **ICML 2022** for publication.   
+An earlier version received the Student Research Award at the 35th New England Statistics Symposium and Honorable Mention Award in the ASA Student Paper Award competition (SLDS section) at JSM 2021.
 
 ## Package installation
 
@@ -49,13 +49,12 @@ BestLinearProj(ef_fit, coord_df, coord_id, "site", "Z", "Y", covars)
 
 ## Replication for paper
 
-- Simulation codes are under folder code_for_paper/simulation
-    - Run the following bash scripts for heterogeneous designs and homogeneous designs, respectively.
+- Simulation codes are under folder code_for_paper
+    - Run the following bash script.
         ```bash
-        sh make.sh script_dt_hetero
-        sh make.sh script_dt_homo
+        sbatch run_hetero.sh
         ```
-- Real data codes are under folder code_for_paper/eICUdata
+- Real data access and preparation
     - The eICU Collaborative Research Database [[paper]](https://www.nature.com/articles/sdata2018178) [[website]](https://eicu-crd.mit.edu/).
     - Data are preprocessed following paper "The Search for Optimal Oxygen Saturation Targets in Critically Ill Patients: Observational Data from Large ICU Databases" [[paper]](https://doi.org/10.1016/j.chest.2019.09.015) [[github]](https://github.com/nus-mornin-lab/oxygenation_kc).
 
@@ -64,12 +63,10 @@ BestLinearProj(ef_fit, coord_df, coord_id, "site", "Z", "Y", covars)
 
 If you use our code, please cite
 ```
-@misc{tan2021treebased,
-      title={A Tree-based Federated Learning Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources}, 
-      author={Xiaoqing Tan and Chung-Chou H. Chang and Lu Tang},
-      year={2021},
-      eprint={2103.06261},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
+@article{tan2021tree,
+  title={A tree-based federated learning approach for personalized treatment effect estimation from heterogeneous data sources},
+  author={Tan, Xiaoqing and Chang, Chung-Chou H and Tang, Lu},
+  journal={arXiv preprint arXiv:2103.06261},
+  year={2021}
 }
 ```
