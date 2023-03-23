@@ -1,6 +1,6 @@
 # ifedtree
 
-R package `ifedtree` and replication codes for paper "**A Tree-based Model Averaging Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" [[arxiv]](https://arxiv.org/abs/2103.06261), which has recently been accepted by **ICML 2022** for publication.   
+R package `ifedtree` and replication codes for paper "**A Tree-based Model Averaging Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources**" [[paper]](https://arxiv.org/abs/2103.06261), which has recently been accepted by **ICML 2022** for publication.   
 An earlier version received the Student Research Award at the 35th New England Statistics Symposium and Honorable Mention Award in the ASA Student Paper Award competition (SLDS section) at JSM 2021.
 
 ## Package installation
