@@ -64,10 +64,12 @@ BestLinearProj(ef_fit, coord_df, coord_id, "site", "Z", "Y", covars)
 If you find this repository useful, please cite:
 
 ```
-@article{tan2021tree,
-  title={A tree-based federated learning approach for personalized treatment effect estimation from heterogeneous data sources},
-  author={Tan, Xiaoqing and Chang, Chung-Chou H and Tang, Lu},
-  journal={arXiv preprint arXiv:2103.06261},
-  year={2021}
+@inproceedings{tan2022tree,
+  title={A tree-based model averaging approach for personalized treatment effect estimation from heterogeneous data sources},
+  author={Tan, Xiaoqing and Chang, Chung-Chou H and Zhou, Ling and Tang, Lu},
+  booktitle={International Conference on Machine Learning},
+  pages={21013--21036},
+  year={2022},
+  organization={PMLR}
 }
 ```
